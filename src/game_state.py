@@ -13,7 +13,7 @@ from typing import List, Optional, Tuple, Set
 from enum import Enum, auto
 from dataclasses import dataclass
 
-
+# TODO: Add function to flatten State into a NN input vector (list of floats)
 @dataclass
 class State:
     allies: List[Pokemon]
